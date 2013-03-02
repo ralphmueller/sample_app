@@ -10,6 +10,7 @@ gem 'bcrypt-ruby', '3.0.1'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'debugger'
 end
 
 group :development do
@@ -17,6 +18,7 @@ group :development do
 end
 
 group :test do
+  gem 'factory_girl_rails', '4.1.0'
   gem 'capybara', '1.1.2'
 end
 
@@ -49,6 +51,3 @@ gem 'jquery-rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
